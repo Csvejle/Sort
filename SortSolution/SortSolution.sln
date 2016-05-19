@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortLib", "SortLib\SortLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortLibTests", "SortLibTests\SortLibTests.csproj", "{D11FFFFE-0136-470E-8861-846C4A7C12E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{04E58168-FED8-4D56-A808-6E2B9571043A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{D11FFFFE-0136-470E-8861-846C4A7C12E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11FFFFE-0136-470E-8861-846C4A7C12E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11FFFFE-0136-470E-8861-846C4A7C12E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04E58168-FED8-4D56-A808-6E2B9571043A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04E58168-FED8-4D56-A808-6E2B9571043A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04E58168-FED8-4D56-A808-6E2B9571043A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04E58168-FED8-4D56-A808-6E2B9571043A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
