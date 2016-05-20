@@ -10,7 +10,6 @@ namespace SortLib
     public class Sort
     {
         MergeSort _MergeSort = new MergeSort();
-
         InsertionSort _InsertionSort = new InsertionSort();
 
         /* O(n) = n * log_2(n) 
@@ -93,6 +92,52 @@ namespace SortLib
             // Convert the resulting list back to a static array
             return resultList.ToArray();
         }
-    }
 
+        public T[] Merge2<T>(T[] array_A, T[] array_B) where T : IComparable, IComparable<T>
+        {
+            // Convert the input arrays to lists, which gives more flexibility 
+            // and the option to resize the arrays dynamically.
+            int leftPointer = 0;
+            int rigthPointer = 0;
+            //List<T> rightList = array_B.OfType<T>().ToList();
+            List<T> resultList = new List<T>();
+
+            // While the sublist are not empty merge them repeatedly to produce new sublists 
+            // until there is only 1 sublist remaining. This will be the sorted list.
+            while (leftPointer < array_A.Length || rigthPointer < array_B.Length)
+            {
+                if (leftPointer < array_A.Length && rigthPointer < array_B.Length)
+                {
+                    // Compare the 2 lists, append the smaller element to the result list
+                    // and remove it from the original list.
+                    if (array_A[leftPointer].CompareTo(array_B[rigthPointer]) <= 0)
+                    {
+                        resultList.Add(array_A[leftPointer]);
+                        leftPointer++;
+                    }
+
+                    else
+                    {
+                        resultList.Add(array_B[rigthPointer]);
+                        rigthPointer++;
+                    }
+                }
+
+                else if (leftPointer < array_A.Length)
+                {
+                    resultList.Add(array_A[leftPointer]);
+                    leftPointer++;
+                }
+
+                else if (rigthPointer <= array_B.Length)
+                {
+                    resultList.Add(array_B[rigthPointer]);
+                    rigthPointer++;
+                }
+            }
+
+            // Convert the resulting list back to a static array
+            return resultList.ToArray();
+        }
+    }
 }

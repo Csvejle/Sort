@@ -1,0 +1,9 @@
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\bin\Debug\SortLibTests.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\bin\Debug\SortLibTests.pdb
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\bin\Debug\SortLib.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\bin\Debug\SortLib.pdb
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\obj\Debug\SortLibTests.csprojResolveAssemblyReference.cache
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\obj\Debug\SortLibTests.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SortLibTests\obj\Debug\SortLibTests.pdb

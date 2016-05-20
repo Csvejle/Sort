@@ -11,6 +11,7 @@ namespace SortLib
         public T[] Sort<T>(T[] array) where T : IComparable, IComparable<T>
         {
             List<T> result = new List<T>();
+
             if (array.Count() > 0) {
                 result.Add(array[0]);
 

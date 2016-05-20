@@ -40,5 +40,16 @@ namespace SortLib.Tests
                 Assert.IsTrue(array_result[i] == ArrayTest[i]);
             }
         }
+
+        [TestMethod()]
+        public void Merge2Test()
+        {
+            var array_result = TestInstance.Merge2<int>(Array1, Array2);
+
+            for (int i = 0; i < ArrayTest.Count(); i++)
+            {
+                Assert.IsTrue(array_result[i] == ArrayTest[i]);
+            }
+        }
     }
 }
