@@ -1,0 +1,9 @@
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\bin\Debug\SearchLibTests.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\bin\Debug\SearchLibTests.pdb
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\bin\Debug\Search.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\bin\Debug\Search.pdb
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\obj\Debug\SearchLibTests.csprojResolveAssemblyReference.cache
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\obj\Debug\SearchLibTests.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\SearchLibTests\obj\Debug\SearchLibTests.pdb

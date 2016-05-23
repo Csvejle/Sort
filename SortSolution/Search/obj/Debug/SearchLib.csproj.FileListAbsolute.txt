@@ -1,0 +1,5 @@
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\Search\bin\Debug\Search.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\Search\bin\Debug\Search.pdb
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\Search\obj\Debug\SearchLib.csprojResolveAssemblyReference.cache
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\Search\obj\Debug\Search.dll
+C:\Users\CSVEJLE\Documents\GitHub\Sort\SortSolution\Search\obj\Debug\Search.pdb

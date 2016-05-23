@@ -2,6 +2,7 @@
 using SortLib;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,12 +38,18 @@ namespace SortLib.Tests
         [TestMethod()]
         public void InsertionSortTest()
         {
-            var array_result = TestInstance.InsertionSort<int>(UnsortedArray);
 
+            //Debug.WriteLine("Start!!!!!!!!!!!!");
+
+            var array_result = TestInstance.InsertionSort<int>(UnsortedArray);
             for (int i = 0; i < ArrayTest.Count(); i++)
             {
+
+                //Debug.WriteLine("Result: " + array_result[i].ToString() + " Forvenetet: " + ArrayTest[i]);
                 Assert.IsTrue(array_result[i] == ArrayTest[i]);
             }
+            
+            //Debug.WriteLine("STOP!!!!!!!!!!!!");
         }
     }
 }

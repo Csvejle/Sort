@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortLib", "SortLib\SortLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortLibTests", "SortLibTests\SortLibTests.csproj", "{D11FFFFE-0136-470E-8861-846C4A7C12E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchLib", "Search\SearchLib.csproj", "{F5990C24-4DD3-4E52-920D-7C7604A9A289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchLibTests", "SearchLibTests\SearchLibTests.csproj", "{CE552A25-8CB3-4A8F-A032-ADC11168748A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D11FFFFE-0136-470E-8861-846C4A7C12E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11FFFFE-0136-470E-8861-846C4A7C12E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11FFFFE-0136-470E-8861-846C4A7C12E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5990C24-4DD3-4E52-920D-7C7604A9A289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5990C24-4DD3-4E52-920D-7C7604A9A289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5990C24-4DD3-4E52-920D-7C7604A9A289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5990C24-4DD3-4E52-920D-7C7604A9A289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE552A25-8CB3-4A8F-A032-ADC11168748A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE552A25-8CB3-4A8F-A032-ADC11168748A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE552A25-8CB3-4A8F-A032-ADC11168748A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE552A25-8CB3-4A8F-A032-ADC11168748A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
